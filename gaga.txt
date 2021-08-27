@@ -1,3 +1,5 @@
 rpc-php.trafficfactory.b.biz
 rpc-php.trafficfactory.biz/click/
 185.88.180.106
+a.adtng.com
+celeritascdn.com
