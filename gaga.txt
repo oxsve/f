@@ -1,5 +1,6 @@
-rpc-php.trafficfactory.b.biz
-rpc-php.trafficfactory.biz/click/
-185.88.180.106
-a.adtng.com
-celeritascdn.com
+127.0.0.1 rpc-php.trafficfactory.b.biz
+127.0.0.1 rpc-php.trafficfactory.biz/click/
+127.0.0.1 185.88.180.106
+127.0.0.1 a.adtng.com
+127.0.0.1 celeritascdn.com
+127.0.0.1 lama.com
